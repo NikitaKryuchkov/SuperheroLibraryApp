@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA03800D2708EDA300C70D1F /* SuperHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03800C2708EDA300C70D1F /* SuperHero.swift */; };
+		FA03800F2709D39F00C70D1F /* NetworkDataFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA03800E2709D39F00C70D1F /* NetworkDataFetcher.swift */; };
+		FA0380112709E5B900C70D1F /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0380102709E5B900C70D1F /* NetworkService.swift */; };
+		FA0380132709F12E00C70D1F /* DataFetcherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0380122709F12E00C70D1F /* DataFetcherService.swift */; };
+		FA038016270A2B5500C70D1F /* HeroImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA038015270A2B5500C70D1F /* HeroImageView.swift */; };
 		FABB80A227086EE5002C9491 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB80A127086EE5002C9491 /* AppDelegate.swift */; };
 		FABB80A427086EE5002C9491 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB80A327086EE5002C9491 /* SceneDelegate.swift */; };
-		FABB80A627086EE5002C9491 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB80A527086EE5002C9491 /* ViewController.swift */; };
+		FABB80A627086EE5002C9491 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB80A527086EE5002C9491 /* MainViewController.swift */; };
 		FABB80A927086EE5002C9491 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABB80A727086EE5002C9491 /* Main.storyboard */; };
 		FABB80AB27086EE8002C9491 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABB80AA27086EE8002C9491 /* Assets.xcassets */; };
 		FABB80AE27086EE8002C9491 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FABB80AC27086EE8002C9491 /* LaunchScreen.storyboard */; };
+		FABB80B62708762E002C9491 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB80B52708762E002C9491 /* CollectionViewCell.swift */; };
+		FABB80B82708D77B002C9491 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FABB80B72708D77B002C9491 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA03800C2708EDA300C70D1F /* SuperHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperHero.swift; sourceTree = "<group>"; };
+		FA03800E2709D39F00C70D1F /* NetworkDataFetcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkDataFetcher.swift; sourceTree = "<group>"; };
+		FA0380102709E5B900C70D1F /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		FA0380122709F12E00C70D1F /* DataFetcherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetcherService.swift; sourceTree = "<group>"; };
+		FA038015270A2B5500C70D1F /* HeroImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroImageView.swift; sourceTree = "<group>"; };
 		FABB809E27086EE5002C9491 /* SuperheroLibrary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperheroLibrary.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABB80A127086EE5002C9491 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FABB80A327086EE5002C9491 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FABB80A527086EE5002C9491 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FABB80A527086EE5002C9491 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		FABB80A827086EE5002C9491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FABB80AA27086EE8002C9491 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FABB80AD27086EE8002C9491 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FABB80AF27086EE8002C9491 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FABB80B52708762E002C9491 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		FABB80B72708D77B002C9491 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA0380072708EB5000C70D1F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FA03800C2708EDA300C70D1F /* SuperHero.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FA0380082708EB9200C70D1F /* Network Service */ = {
+			isa = PBXGroup;
+			children = (
+				FA0380102709E5B900C70D1F /* NetworkService.swift */,
+				FA03800E2709D39F00C70D1F /* NetworkDataFetcher.swift */,
+				FA0380122709F12E00C70D1F /* DataFetcherService.swift */,
+			);
+			path = "Network Service";
+			sourceTree = "<group>";
+		};
+		FA0380092708EBB300C70D1F /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				FABB80A127086EE5002C9491 /* AppDelegate.swift */,
+				FABB80A327086EE5002C9491 /* SceneDelegate.swift */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		FA03800A2708EBD700C70D1F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FABB80AC27086EE8002C9491 /* LaunchScreen.storyboard */,
+				FABB80A727086EE5002C9491 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FA03800B2708EC0D00C70D1F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FABB80A527086EE5002C9491 /* MainViewController.swift */,
+				FABB80B72708D77B002C9491 /* DetailViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FA038014270A2A8600C70D1F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FABB80B52708762E002C9491 /* CollectionViewCell.swift */,
+				FA038015270A2B5500C70D1F /* HeroImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FA038017270A2BEC00C70D1F /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				FABB80AA27086EE8002C9491 /* Assets.xcassets */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		FABB809527086EE5002C9491 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +132,13 @@
 		FABB80A027086EE5002C9491 /* SuperheroLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				FABB80A127086EE5002C9491 /* AppDelegate.swift */,
-				FABB80A327086EE5002C9491 /* SceneDelegate.swift */,
-				FABB80A527086EE5002C9491 /* ViewController.swift */,
-				FABB80A727086EE5002C9491 /* Main.storyboard */,
-				FABB80AA27086EE8002C9491 /* Assets.xcassets */,
-				FABB80AC27086EE8002C9491 /* LaunchScreen.storyboard */,
+				FA038014270A2A8600C70D1F /* Views */,
+				FA03800B2708EC0D00C70D1F /* ViewControllers */,
+				FA0380082708EB9200C70D1F /* Network Service */,
+				FA0380072708EB5000C70D1F /* Model */,
+				FA03800A2708EBD700C70D1F /* Storyboards */,
+				FA0380092708EBB300C70D1F /* SupportingFiles */,
+				FA038017270A2BEC00C70D1F /* Source */,
 				FABB80AF27086EE8002C9491 /* Info.plist */,
 			);
 			path = SuperheroLibrary;
@@ -138,9 +215,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FABB80A627086EE5002C9491 /* ViewController.swift in Sources */,
+				FABB80A627086EE5002C9491 /* MainViewController.swift in Sources */,
 				FABB80A227086EE5002C9491 /* AppDelegate.swift in Sources */,
+				FA0380112709E5B900C70D1F /* NetworkService.swift in Sources */,
+				FABB80B82708D77B002C9491 /* DetailViewController.swift in Sources */,
+				FA038016270A2B5500C70D1F /* HeroImageView.swift in Sources */,
+				FA03800F2709D39F00C70D1F /* NetworkDataFetcher.swift in Sources */,
+				FA0380132709F12E00C70D1F /* DataFetcherService.swift in Sources */,
+				FABB80B62708762E002C9491 /* CollectionViewCell.swift in Sources */,
 				FABB80A427086EE5002C9491 /* SceneDelegate.swift in Sources */,
+				FA03800D2708EDA300C70D1F /* SuperHero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
